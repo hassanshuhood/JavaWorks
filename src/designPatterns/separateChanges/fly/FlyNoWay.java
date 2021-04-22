@@ -1,4 +1,4 @@
-package work.src.designPatterns.separateChanges.fly;
+package designPatterns.separateChanges.fly;
 
 public class FlyNoWay implements FlyBehaviour{
 

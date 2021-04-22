@@ -1,4 +1,4 @@
-package work.src.designPatterns.observerPattern;
+package designPatterns.observerPattern;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;

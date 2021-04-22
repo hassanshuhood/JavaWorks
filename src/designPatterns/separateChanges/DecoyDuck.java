@@ -1,7 +1,7 @@
-package work.src.designPatterns.separateChanges;
+package designPatterns.separateChanges;
 
-import work.src.designPatterns.separateChanges.fly.FlyBehaviour;
-import work.src.designPatterns.separateChanges.fly.FlyNoWay;
+import designPatterns.separateChanges.fly.FlyBehaviour;
+import designPatterns.separateChanges.fly.FlyNoWay;
 
 public class DecoyDuck extends Duck{
 
