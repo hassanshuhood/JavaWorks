@@ -1,24 +1,22 @@
+package work.src;
+
 public class Main {
 
 
     public static void main(String[] args) { 
+        String s = "1234";
+        Long l = 1234L;
+        Long s2 = (Long)getAttr();
+        if( l.equals((Long)getAttr())){
+            System.out.println("true");;
+        }
+        else{
+            System.out.println(false);
+        }
+    }
 
-
-        System.out.println(Animal.animalDefaultName);
-        System.out.println(Animal.d);
-        Animal d = new Dog();
-        d.makeSound();
-        //d.dogPersonal();
-
-        
-        Pet p = Animal.checkPet();
-        p.beFriendly();
-
-        p = Animal.checkPet();
-        p.beFriendly();
-
-        Dog d1 = new Dog();
-
+    public static Object getAttr(){
+        return (Object)"1234";
     }
     
 }

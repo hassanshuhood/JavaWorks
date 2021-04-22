@@ -1,4 +1,4 @@
-package thread;
+package work.src.thread;
 
 public class MyRunnable implements Runnable {
     public void run() {
